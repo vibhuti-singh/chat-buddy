@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import ChatPage from "./components/ChatPage";
 import socketIO from "socket.io-client";
 
-const socket = socketIO.connect("https://2dcf-113-193-214-154.ngrok-free.app");
+const socket = socketIO.connect("https://ten-dingos-laugh.loca.lt");
 function App() {
   return (
     <BrowserRouter>
